@@ -52,15 +52,16 @@
 }
 
 body {
- background-color: var(--bg-main);
-  color: var(--text);
-   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+     background-color: var(--bg-main);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px;
+    font-family: "Red Hat Text", sans-serif;
+    flex-direction: column;
 
-  padding: 20px;
-  font-family: "Red Hat Text", sans-serif;
 }
 main {
   width: 100%;
