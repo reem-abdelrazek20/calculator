@@ -55,8 +55,12 @@
 body {
  background-color: var(--bg-main);
   color: var(--text);
-  width: 350px;
-  margin: 50px auto;
+   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
   font-family: "Red Hat Text", sans-serif;
 }
 .top-part {
